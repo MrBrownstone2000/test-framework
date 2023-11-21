@@ -1,9 +1,9 @@
 # ====== Configuration ======
-LIB_NAME = testFramework.so
+LIB_NAME = libTestFramework.so
 
 target = debug
 
-CFLAGS = -Wall -Wextra -std=c++2b 
+CFLAGS = -Wall -Wextra -std=c++23 -fpic
 
 ifeq ($(target), debug)
   CFLAGS += -g
@@ -38,7 +38,7 @@ cleanAll:
 	rm -rf obj
 
 $(LIB): $(OBJ_LIST) | $(OUTPUT_DIR)
-	g++ -std=c++23 -o $@ $^ $(LDFLAGS) 
+	g++ -std=c++23 -shared -o $@ $^ $(LDFLAGS)
 
 $(OUTPUT_DIR):
 	mkdir -p $@
