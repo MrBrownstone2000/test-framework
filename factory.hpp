@@ -2,11 +2,11 @@
 #define __FACTORY_HPP__
 
 #include <algorithm>
-#include <string>
-#include <vector>
-#include <map>
 #include <cassert>
 #include <iostream>
+#include <map>
+#include <string>
+#include <vector>
 
 // Basic auto registering factory framework
 // Inspired by https://github.com/gsuberland/autoregistering-cpp-factory

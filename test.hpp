@@ -1,10 +1,10 @@
 #ifndef __TEST_HPP__
 #define __TEST_HPP__
 
-#include "testCore/factory.hpp"
-#include "testCore/base.hpp"
-#include "testCore/runner.hpp"
-#include "testCore/asserts.hpp"
+#include "asserts.hpp"
+#include "base.hpp"
+#include "factory.hpp"
+#include "runner.hpp"
 
 #include <iostream>
 #include <string>

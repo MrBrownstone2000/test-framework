@@ -1,8 +1,8 @@
 #include "demangle.hpp"
 
 #include <cxxabi.h>
-#include <string>
 #include <memory>
+#include <string>
 
 namespace test
 {

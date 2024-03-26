@@ -1,8 +1,7 @@
+#include "asserts.hpp"
+#include "base.hpp"
+#include "factory.hpp"
 #include "runner.hpp"
-
-#include "testCore/factory.hpp"
-#include "testCore/base.hpp"
-#include "testCore/asserts.hpp"
 
 #include <exception>
 #include <iostream>

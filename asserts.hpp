@@ -3,8 +3,8 @@
 
 #include <exception>
 #include <functional>
-#include <string>
 #include <sstream>
+#include <string>
 
 #include "demangle.hpp"
 
