@@ -1,5 +1,4 @@
 #include "UnitTests/test.hpp"
-#include "UnitTests/toto/toto.hpp"
 
 TEST_MODULE(Test_module)
 {
